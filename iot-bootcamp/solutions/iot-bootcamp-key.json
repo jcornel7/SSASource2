@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "raspi-sensor1",
+  "private_key_id": "ef092601ae14831d75cbb2726712584703dd5acf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpeWxvobzcIMJr\npD81AxyiMt1nc6TsQ9DFU7rnKx66PmnZZpwDpaqfRSk0m7KmqazPNmjDnmbG74LZ\n7HVN3C32/KV7KEpq/KXKv/3BhZ7j6H1ZASUMsB9GjYe3mCReyo75CUMgAUrBhRC6\ntPmFpJygoVlIj/kPFprX48Df6kPraP/1jcEf70UBqq+rSdNib9FehVPqQ1CcydbX\nzcYC3fMtLZfVhxxzBLUTyubzS6kgQuMGV6hsOJindWs4DrzFVyQGT6KAvw+u3qBA\n2CioyU7d3Mu0tVUdYG73AaO6Pb9kRCt01dxbMvxq27pra7yMN9k1FO9fTAkflI1n\nEKE0UjzxAgMBAAECggEABWo5yr9SN35cd/ABjQISciRJ6rpJNLtd+lAYkrZP/wdr\nfmTG617purkM/f9Tj/uv59cHNejjw8t3VNs3TEuStGeSKgM5jX2RFo9X3k0UrJeL\nGcLtmiAuf6SaB4W288hpFQ/0sxsXdmN4C18o8do2nvNI1Qa0oITKYceHLCBiFy1w\nXmWB2VuzNjx3n8vVYmzsPBAkeYXMeMiBshtZsUJfYyoN1b5rVLoAqxyz7BEpXwwa\n+rmFODuRLA9VTfS9eomk0GICrmQrryyHrALjrQshy4rZ3y0kObXOB8Jt6MVJAgep\n43L4xMFmqswwmjfMEH8U53I85GJuVWTIC+QvkYfPIQKBgQDYGirIDTIinxkgJTYr\nMEedkVpL/qAhw/9+BiH1UzVJN69fyQL8vwoPWJf6NfIdb3TZg31gr1PkBOIWBseV\nUwTtiOi+iNnIZ53VH4iQDFN1enskpVlYNLTtChkxmwMIwxE0hFVPA0NgBP/vRQQ5\nhHoYkbo53/ED1DZVKL31/k0rXQKBgQDIw3Cip/GiRURQKfapJG1RRDKLgbtj1X4A\negJlRcdkk0ThwyHx1wZ1Lq8CKYjN7UMnPVnrlqdoJk25xbBcl9aSLVjSzbxvs8nb\n71zWet0scELqineww0Gqz8Fdb8VgZuyOZgFhnCIM2OrIKoMbUqpD39pNBDTKJRal\ns2n2jd/SpQKBgA8JQxDIWkSubUEfVbWLlnAQPQgsn1e6G3zZUGORdpOxnDI9+kc7\nw6dtsqVmO4JwzuCTlZW0nVGwRUrjDeAF9sHQVOFtBDo9e23o08eyE9yIuSjDmIPa\npvwXR8l7z6o8aGYPDyCASZ/UuTocwz59SUGMYjjErDBoA5/JRe5n01bBAoGAaN7+\npVjJNhSsvJtPB8fJetv+8zTPaDULXsBdI/2xTG5JWw0NXEEQVIIQVTbRCZDYtVSs\n9g16YUMw8su7doKySSV68pMZzdfCqCp++mKvyhjSO6YdI667TLi9r0tFdTgOdcv/\nCLgAaWmeKvVaCxnBazcx121NDhMVo3T28x3lPykCgYEAlgG+HKvAPFEatRIj1Jji\nJl0WvzME4cfZs7LUZRewPAihvtu9cn8U/KCwmm156BJ9eExHvcT4k6PLawY4Pzp/\nx3TLKs+Tgc27vici3UP9ERgip+nBDTrx635Dgc2bYyqQyWd9eOVJ3qIQrMlZCp1Q\nSa4SP9PBDKPdXga8ScpgLrY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pubsub@raspi-sensor1.iam.gserviceaccount.com",
+  "client_id": "109849340303329129443",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub%40raspi-sensor1.iam.gserviceaccount.com"
+}
