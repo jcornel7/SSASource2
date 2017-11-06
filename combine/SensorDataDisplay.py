@@ -70,20 +70,8 @@ while True:
 
     # Draw a black filled box to clear the image.
     draw.rectangle((0,0,width,height), outline=0, fill=0)
-
-cdegrees = sensor.read_temperature()
-fdegrees = degrees*9/5+32
-pascals = sensor.read_pressure()
-hectopascals = pascals / 100
-humidity = sensor.read_humidity()
-
-
-
     # Write two lines of text.
 
-
-	
-	
     draw.text((x, top),       "F:" + str(fdegrees),  font=font, fill=255)
     draw.text((x, top+8),     "C:" + str(cdegrees),  font=font, fill=255)
     draw.text((x, top+16),    "P:" + str(hectopascals),  font=font, fill=255)
