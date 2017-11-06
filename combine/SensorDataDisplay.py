@@ -71,9 +71,9 @@ while True:
     draw.rectangle((0,0,width,height), outline=0, fill=0)
     # Write two lines of text.
 
-    draw.text((x, top),       "F:" + str(fdegrees).format(.2f),  font=font, fill=255)
+    draw.text((x, top),       "F:" + str(fdegrees).format(round(a,2)),  font=font, fill=255)
     draw.text((x, top+8),     "C:" + str(cdegrees),  font=font, fill=255)
-    draw.text((x, top+16),    "P:" + str(hectopascals),  font=font, fill=255)
+    draw.text((x, top+16),    "P:" + str(pascals),  font=font, fill=255)
     draw.text((x, top+25),    "H:" + str(humidity),  font=font, fill=255)
 
     # Display image.
