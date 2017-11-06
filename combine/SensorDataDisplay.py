@@ -18,6 +18,8 @@ fdegrees = cdegrees*9/5+32
 pascals = sensor.read_pressure()
 hectopascals = pascals / 100
 humidity = sensor.read_humidity()
+f = fdegrees
+c = cdegrees
 
 
 # Raspberry Pi pin configuration:
@@ -71,8 +73,8 @@ while True:
     draw.rectangle((0,0,width,height), outline=0, fill=0)
     # Write two lines of text.
 
-    draw.text((x, top),       "F:" + str(fdegrees.round(2)),  font=font, fill=255)
-    draw.text((x, top+8),     "C:" + str(cdegrees.round(2)),  font=font, fill=255)
+    draw.text((x, top),       "F:" + str(fdegrees).format(round(f,2)),  font=font, fill=255)
+    draw.text((x, top+8),     "C:" + str(cdegrees),  font=font, fill=255)
     draw.text((x, top+16),    "P:" + str(hectopascals),  font=font, fill=255)
     draw.text((x, top+25),    "H:" + str(humidity),  font=font, fill=255)
 
