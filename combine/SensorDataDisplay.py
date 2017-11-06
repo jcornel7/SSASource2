@@ -9,7 +9,6 @@ from PIL import ImageDraw
 from PIL import ImageFont
 from Adafruit_BME280 import *
 
-
 import subprocess
 
 sensor = BME280(t_mode=BME280_OSAMPLE_8, p_mode=BME280_OSAMPLE_8, h_mode=BME280_OSAMPLE_8)
@@ -72,7 +71,7 @@ while True:
     draw.rectangle((0,0,width,height), outline=0, fill=0)
     # Write two lines of text.
 
-    draw.text((x, top),       "F:" + str(fdegrees),  font=font, fill=255)
+    draw.text((x, top),       "F:" + str(fdegrees).format(.2f),  font=font, fill=255)
     draw.text((x, top+8),     "C:" + str(cdegrees),  font=font, fill=255)
     draw.text((x, top+16),    "P:" + str(hectopascals),  font=font, fill=255)
     draw.text((x, top+25),    "H:" + str(humidity),  font=font, fill=255)
