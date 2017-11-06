@@ -7,8 +7,19 @@ import Adafruit_SSD1306
 from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
+from Adafruit_BME280 import *
+
 
 import subprocess
+
+sensor = BME280(t_mode=BME280_OSAMPLE_8, p_mode=BME280_OSAMPLE_8, h_mode=BME280_OSAMPLE_8)
+
+cdegrees = sensor.read_temperature()
+fdegrees = degrees*9/5+32
+pascals = sensor.read_pressure()
+hectopascals = pascals / 100
+humidity = sensor.read_humidity()
+
 
 # Raspberry Pi pin configuration:
 RST = None     # on the PiOLED this pin isnt used
@@ -65,6 +76,8 @@ fdegrees = degrees*9/5+32
 pascals = sensor.read_pressure()
 hectopascals = pascals / 100
 humidity = sensor.read_humidity()
+
+
 
     # Write two lines of text.
 
