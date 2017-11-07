@@ -11,4 +11,5 @@ while True:
     input_state = GPIO.input(18)
     if input_state == False:
         print('Button Pressed')
+		gpio -g write 21 1
         time.sleep(0.2)
