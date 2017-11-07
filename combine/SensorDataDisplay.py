@@ -81,8 +81,8 @@ while True:
     # Write two lines of text.
     draw.text((x, top),		  "%.1f" % float(fdegrees) + " F Degrees", font=font, fill=255)
     draw.text((x, top+8),     "%.1f" % float(cdegrees) + " C Degrees",  font=font, fill=255)
-    draw.text((x, top+16),    "P:" + "%.2f" % float(hectopascals),  font=font, fill=255)
-    draw.text((x, top+25),    "H:" + "%.2f" % float(humidity),  font=font, fill=255)
+    draw.text((x, top+16),    "%.2f" % float(hectopascals) + " hPa",  font=font, fill=255)
+    draw.text((x, top+25),    "%.2f" % float(humidity) + "% Humidity",  font=font, fill=255)
 
     # Display image.
     disp.image(image)
