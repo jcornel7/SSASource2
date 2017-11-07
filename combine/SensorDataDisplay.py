@@ -73,9 +73,8 @@ while True:
     draw.rectangle((0,0,width,height), outline=0, fill=0)
     # Write two lines of text.
 
-	
-    #draw.text((x, top),       "F:" + "%.2f" % float(fdegrees),  font=font, fill=255) 
-	draw.text((x, top),       "F:" + str(fround),  font=font, fill=255)
+	#draw.text((x, top),		  "F:" + "%.2f" % str(fdegrees), font=font, fill=255)
+    draw.text((x, top),       "F:" + float(str(round(fdegrees,2),  font=font, fill=255) 
     draw.text((x, top+8),     "C:" + str(cdegrees),  font=font, fill=255)
     draw.text((x, top+16),    "P:" + str(hectopascals),  font=font, fill=255)
     draw.text((x, top+25),    "H:" + str(humidity),  font=font, fill=255)
