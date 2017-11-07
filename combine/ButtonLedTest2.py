@@ -6,7 +6,7 @@ from time import sleep  # Import sleep Module for timing
 GPIO.setmode(GPIO.BCM)  # Configures pin numbering to Broadcom reference
 GPIO.setwarnings(False)  # Disable Warnings
 GPIO.setup(21, GPIO.OUT)  #Set our GPIO pin to output 
-GPIO.output(17, False)  #Set output to off
+GPIO.output(21, False)  #Set output to off
 GPIO.setup(18, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)  # Set GPIO to input with a  pull-down resistor
 GPIO.add_event_detect(18, GPIO.RISING, bouncetime=200)  # Monitor GPIO pin for a rising edge and debounce for 200mS
 
