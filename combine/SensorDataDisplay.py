@@ -60,7 +60,8 @@ draw.rectangle((0,0,width,height), outline=0, fill=0)
 
 # Draw some shapes.
 # First define some constants to allow easy resizing of shapes.
-padding = -2
+#padding = -2
+padding = 0
 top = padding
 bottom = height-padding
 # Move left to right keeping track of the current x position for drawing shapes.
@@ -69,7 +70,7 @@ x = 0
 
 # Load default font.
 #font = ImageFont.load_default()
-font = ImageFont.truetype('PrStart.ttf', 6)
+font = ImageFont.truetype('PrStart.ttf', 8)
 
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
