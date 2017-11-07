@@ -69,7 +69,7 @@ x = 0
 
 # Load default font.
 #font = ImageFont.load_default()
-font = ImageFont.truetype('PrStart.ttf', 8)
+font = ImageFont.truetype('PrStart.ttf', 6)
 
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
