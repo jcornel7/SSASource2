@@ -18,8 +18,8 @@ fdegrees = cdegrees*9/5+32
 pascals = sensor.read_pressure()
 hectopascals = pascals / 100
 humidity = sensor.read_humidity()
-fround = str(round(fdegrees, 2))
-cround = cdegrees
+f = fdegrees
+c = cdegrees
 
 
 # Raspberry Pi pin configuration:
