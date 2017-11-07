@@ -72,7 +72,7 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0,0,width,height), outline=0, fill=0)
     # Write two lines of text.
-    draw.text((x, top),		  "F:" + "%.2f" % float(fdegrees), font=font, fill=255) + "Degrees"
+    draw.text((x, top),		  "F:" + "%.2f" % float(fdegrees), font=font, fill=255) "Degrees"
     draw.text((x, top+8),     "C:" + "%.2f" % float(cdegrees),  font=font, fill=255)
     draw.text((x, top+16),    "P:" + "%.2f" % float(hectopascals),  font=font, fill=255)
     draw.text((x, top+25),    "H:" + "%.2f" % float(humidity),  font=font, fill=255)
